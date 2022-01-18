@@ -10,7 +10,7 @@ def testGraph(graph):
     maxCycles =  int(len(graph) * 0.6) + 1
 
     infile, infilename = tempfile.mkstemp(suffix="cnf")
-        
+
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
     varsCounter = 1
@@ -19,9 +19,9 @@ def testGraph(graph):
     for i in range(len(graph)):
         for j in range(len(graph)):
             if graph.has_edge(i,j):
-                edgeVars[i][j] = range(maxCycles)
+                edgeVars[i][j] = list(range(maxCycles))
             for k in range(len(edgeVars[i][j])):
-                edgeVars[i][j][k] = varsCounter;
+                edgeVars[i][j][k] = varsCounter
                 varToGraph[varsCounter] = [i,j,k]
                 varsCounter = varsCounter+1
 
@@ -36,13 +36,14 @@ def testGraph(graph):
     s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
     s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
 
-    print "vars", varsCounter
-    print "clausses", len(conditions) 
+    print("vars", varsCounter)
+    print("clausses", len(conditions))
 
+    s = s.encode()
     os.write(infile, s)
     os.close(infile)
 
-    process = Popen(["lingeling", infilename], stdout=PIPE)
+    process = Popen(["./lingeling", infilename], stdout=PIPE)
     (output, err) = process.communicate()
     exit_code = process.wait()
 
@@ -50,7 +51,8 @@ def testGraph(graph):
 
     cycles = {}
 
-    for line in str(output).split("\n"):
+    for line in output.splitlines():
+        line = line.decode()
         if line == "s UNSATISFIABLE":
             return False
         if len(line) > 0 and line[0] == 'v':
@@ -124,7 +126,7 @@ def atLeastTwoCyclesPerEdge(edgeVars, graph, maxCycles):
     for i in range(len(graph)):
         for j in graph.neighbors(i):
             for c in range(maxCycles):
-                res.append([x for x in edgeVars[i][j]]);
+                res.append([x for x in edgeVars[i][j]])
                 res[-1].remove(edgeVars[i][j][c])
                 res[-1].append(-edgeVars[i][j][c])
 
@@ -152,28 +154,28 @@ def main():
             graphsPath = ss[1]
         if ss[0] == "-printCycles":
             printCycles = True
-            
+
     if graphsPath == "":
-        print "you need to provide path to graph file in parameter 'graph'"
+        print("you need to provide path to graph file in parameter 'graph'")
         exit(1)
 
     graphs = [Graph(g) for g in GraphParser.parse(graphsPath)]
 
     for i in range(len(graphs)):
-        print "graph", i+1
+        print("graph", i+1)
         g = graphs[i]
         testResult = testGraph(g)
         if testResult == False:
-            print "without CDC 2-factor"
+            print("without CDC 2-factor")
         else:
-            print "CDC 2-factor exists"
+            print("CDC 2-factor exists")
             if printCycles:
                 for i in range(len(testResult)):
                     #print ",".join(str(x) for x in testResult[i])
                     if i == 0:
-                        print "2-factor"
+                        print("2-factor")
                     if i == 1:
-                        print "CDC supplement"
+                        print("CDC supplement")
                     all = set([y[0] for y in [x for x in testResult[i]]])
                     while len(all) > 0:
                         first = list(all)[0]
@@ -188,7 +190,7 @@ def main():
                                 break
                             cycle.append(next)
                             all.remove(next)
-                        print cycle
+                        print(cycle)
 
 
 
@@ -196,4 +198,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
