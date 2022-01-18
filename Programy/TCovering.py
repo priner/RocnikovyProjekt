@@ -33,7 +33,7 @@ colorValues = {
 def testGraph(graph):
 
     infile, infilename = tempfile.mkstemp(suffix="cnf")
-        
+
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
     varsCounter = 1
@@ -57,12 +57,13 @@ def testGraph(graph):
     s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
     s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
 
-    print(type(infile))
-    print(type(s))
     s = s.encode()
     os.write(infile, s)
-    print(infile)
     os.close(infile)
+
+    # with open(infilename, 'w') as f:
+    #     f.write(s)
+    # os.close(infile)
 
     process = Popen(["./lingeling", infilename], stdout=PIPE)
     (output, err) = process.communicate()
@@ -71,8 +72,10 @@ def testGraph(graph):
     os.remove(infilename)
 
     coloring = {}
-
-    for line in str(output).split("\n"):
+    splitted_lines = output.splitlines()
+    # print(splitted_lines)
+    for line in splitted_lines:
+        line = line.decode()
         if line == "s UNSATISFIABLE":
             return False
 
@@ -85,7 +88,6 @@ def testGraph(graph):
                 #    if mem[0] > mem[1]:
                 #        mem[0],mem[1] = mem[1],mem[0]
                     coloring[(mem[0], mem[1])] = mem[2]
-
     return coloring
 
 # first edge has only 2 posibilities
@@ -146,8 +148,8 @@ def blockConditions(edgeVars, graph, configuration):
                 for column3 in nieghbors:
                     if len({column1, column2, column3}) == 3:
                         for block in configuration:
-                            for color1 in block:                               
-                                for color2 in block:                               
+                            for color1 in block:
+                                for color2 in block:
                                     for color3 in block:
                                         if len({color1, color2, color3}) == 3:
                                            res.append([-row[column1][color1], -row[column2][color2], row[column3][color3]])
@@ -183,7 +185,7 @@ def main():
                 for u in range(len(g)):
                     for v in g.neighbors(u):
                         print(u, v, "->")
-                        c = colorValues[testResult[(u,v)]]  
+                        c = colorValues[testResult[(u,v)]]
                         print("".join([ str(int((c&(2**i)) != 0)) for i in range(3,-1,-1)]))
 
 if __name__ == '__main__':
