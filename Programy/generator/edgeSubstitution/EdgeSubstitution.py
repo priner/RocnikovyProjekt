@@ -11,7 +11,7 @@ from sage.all import *
 
 def readCubicGraphs(fileName):
 	file = open(fileName, "r")
-	graphs = [ Graph(line) for line in file.readlines()]
+	graphs = [Graph(line) for line in file.readlines()]
 	return graphs
 
 def existsInPrevious(graphs, g):
@@ -33,7 +33,7 @@ def getGirthAndCC(fileName):
 		if len(words) > 1 and words[0] == "cc:":
 			cc = int(words[1])
 	return (girth,cc)
-	
+
 
 
 def join(g, component, x1,x2,y1,y2,oldx,oldy):
@@ -46,7 +46,7 @@ def join(g, component, x1,x2,y1,y2,oldx,oldy):
 	gg2.relabel(dict([(x, (1, x)) for x in gg2.vertices()]))
 
 	gg = gg1.union(gg2)
-	
+
 	gg.add_edge([(0,x1), (1, component.graph.neighbors(component.connectors[0][0])[0])])
 	gg.add_edge([(0,x2), (1, component.graph.neighbors(component.connectors[0][1])[0])])
 	gg.add_edge([(0,y1), (1, component.graph.neighbors(component.connectors[1][0])[0])])
@@ -61,7 +61,7 @@ def join(g, component, x1,x2,y1,y2,oldx,oldy):
 	gg.delete_vertex((1, component.connectors[1][1]))
 
 	if not gg.is_regular():
-		print x1,x2,y1,y2,oldx, oldy
+		print(x1,x2,y1,y2,oldx, oldy)
 
 	gg.relabel()
 	return gg
@@ -105,14 +105,14 @@ def main():
         if ss[0] == "-outputFile":
             outputFile = ss[1]
         if ss[0] == "-halin":
-        	halinPath = ss[1]
-            
+            halinPath = ss[1]
+
     if graphsPath == "":
-        print "you need to provide path to graph file in parameter 'graph'"
+        print("you need to provide path to graph file in parameter 'graph'")
         exit(1)
 
     if outputFile == "":
-        print "you need to provide output file in parameter 'outputFile'"
+        print("you need to provide output file in parameter 'outputFile'")
         exit(1)
 
     graphs = [Graph(g) for g in GraphParser.parse(graphsPath)]
@@ -122,17 +122,16 @@ def main():
     halin = GeneratorHelper.parseComponents(halinPath)[0]
 
     for i in range(len(graphs)):
-        print "graph", i+1
+        print("graph", i+1)
         g = graphs[i]
         for newGraph in substituteEachEdge(g, halin):
-        	if not existsInPrevious(generated, newGraph):
-        		generated.append(newGraph)
-    
+            if not existsInPrevious(generated, newGraph):
+                generated.append(newGraph)
+
     toBr.printToFile(generated, outputFile)
 
-    print "generated", len(generated), "graphs"
+    print("generated", len(generated), "graphs")
 
 
 if __name__ == '__main__':
     main()
-
