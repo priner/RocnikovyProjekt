@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -static-libgcc -static-libstdc++   CMakeFiles/final_version.dir/cesky.cpp.o CMakeFiles/final_version.dir/common.cpp.o  -o final_version 

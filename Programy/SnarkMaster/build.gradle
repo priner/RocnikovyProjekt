@@ -1,0 +1,67 @@
+group 'SnarkMaster'
+version '2.2'
+
+apply plugin: 'java'
+apply plugin: "scala"
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['src/main/scala']
+        }
+    }
+    test {
+        scala {
+            srcDirs = ['src/test/scala']
+        }
+    }
+}
+
+dependencies {
+    def scalaVersion = "2.11"
+    def akkaVersion = "2.3.14"
+
+    compile "org.scala-lang:scala-library:$scalaVersion.6"
+    compile "org.scala-lang:scala-swing:$scalaVersion.0-M7"
+    compile "com.storm-enroute:scalameter-core_$scalaVersion:0.7"
+
+    compile "com.typesafe.akka:akka-actor_$scalaVersion:$akkaVersion"
+    compile "com.typesafe.akka:akka-cluster_$scalaVersion:$akkaVersion"
+
+    compile 'com.intellij:forms_rt:6.0.5'
+
+    compile files('lib/sat-formulas_2.11-0.1.jar')
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile "org.scalatest:scalatest_$scalaVersion:2.2.1"
+    testCompile "org.mockito:mockito-all:1.10.19"
+    testCompile "com.typesafe.akka:akka-testkit_$scalaVersion:$akkaVersion"
+}
+
+tasks.withType(ScalaCompile) {
+    configure(scalaCompileOptions.forkOptions) {
+        memoryMaximumSize = '1g'
+        jvmArgs = ['-XX:MaxPermSize=512m']
+    }
+}
+
+apply plugin: 'gradle-one-jar'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.github.rholder:gradle-one-jar:1.0.4'
+    }
+}
+
+task buildJar(type: OneJar) {
+    mainClass = "com.matfyz.snarkmaster.SnarkMasterApp"
+}

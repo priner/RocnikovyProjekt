@@ -1,0 +1,68 @@
+1
+1
+{ Superpozicia 3-dipolu: }
+{ Supervrcholy: (2,2,2)-pol radu 2 ziskany zjednotenim dvoch dipolov }
+{                s odstranenym vrcholom, pricom konektory maju     }
+{                polhrany z roznych komponentov (2x) }
+{ Superhrany: 1. 2,2)-pol U vzniknutym z Hagglundovho snarku 5FLOWE3.34 odstranenim }
+{ dvoch susednych vrcholov z jedneho (2,2,1)-polu B radu 3 }
+{ (B=(K_{3,3} minus cesta dlzky 2) (1x) }
+{             2. heterochrom-2 Q radu 10 nasledovany dekolineatorom D radu 8 }
+{             3. dve paralelne izolovane hrany }
+{ ziskany z DISU0A.54 prepnutim {[4,11],[8,9]}-->{[4,9],[8,11]} }
+{ cc=4, odd=2, striktne stabilny, pmi=5 podla konstrukcie }
+54
+1 26 53
+0 2 5
+1 3 8
+2 4 6
+3 5 9
+1 4 7
+3 7 33
+5 6 8
+2 7 11
+4 10 17
+9 11 31
+8 10 12
+11 13 16
+12 14 19
+13 15 17
+14 16 22
+12 15 18
+9 14 18
+16 17 19
+13 18 20
+19 21 28
+20 22 31
+15 21 23
+22 24 27
+23 25 30
+24 26 28
+0 25 27
+23 26 29
+20 25 29
+27 28 30
+24 29 32
+10 21 52
+30 39 53
+6 34 52
+33 35 38
+34 36 41
+35 37 39
+36 38 46
+34 37 40
+32 36 40
+38 39 41
+35 40 42
+41 43 49
+42 44 51
+43 45 53
+44 46 50
+37 45 47
+46 48 51
+47 49 52
+42 48 50
+45 49 51
+43 47 50
+31 33 48
+0 32 44

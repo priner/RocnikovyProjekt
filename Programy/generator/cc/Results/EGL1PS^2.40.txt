@@ -1,0 +1,22 @@
+# of vertices: 40
+girth: 5
+cc: 4
+# of atoms: 2
+
+atom 1, order: 8
+21 22 24 25 26 27 28 29 
+cut : 
+[21,16] [22,20] [28,23] [29,39] 
+atom has 1 co-atoms
+  pair of vertices in coatom 1: 20, 23
+----------------------------------------------------------
+atom 2, order: 8
+31 32 34 35 36 37 38 39 
+cut : 
+[31,18] [32,30] [38,33] [39,29] 
+atom has 1 co-atoms
+  pair of vertices in coatom 1: 30, 33
+----------------------------------------------------------
+# of vertices not in atoms: 24 :
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
+20 23 30 33 

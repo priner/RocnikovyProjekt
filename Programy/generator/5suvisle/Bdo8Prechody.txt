@@ -1,0 +1,7185 @@
+18-03-2019  15:45:56,140 :  Graph Bdo8.txt has 18 transitions
+edge vertices are (3, 4, 5, 6, 7)
+	Altitude, Altitude
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, CornerPoint
+	Angle, LineSegment
+	Axis, LineSegment
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	HalfLine, Altitude
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, HalfLine
+	LineSegment, MidPoint
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,141 :  Graph Bdo8.txt has 21 transitions
+edge vertices are (5, 6, 10, 11, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,142 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (9, 10, 14, 15, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,142 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (13, 14, 18, 19, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,143 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 15, 16, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,143 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (17, 18, 22, 23, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,146 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 19, 20, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,146 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (14, 15, 22, 23, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,147 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,147 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (21, 22, 26, 27, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,147 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 23, 24, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,149 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (18, 19, 26, 27, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,150 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,150 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (21, 22, 26, 27, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,153 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 20, 21, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,153 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 26, 27, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,154 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,155 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (25, 26, 30, 31, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,155 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 27, 28, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,156 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (22, 23, 30, 31, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,158 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,159 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (25, 26, 30, 31, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,160 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 24, 25, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,161 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 30, 31, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,161 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,163 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (25, 26, 30, 31, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,164 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 27, 28, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,165 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (19, 20, 30, 31, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,166 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,166 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (25, 26, 30, 31, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,167 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,168 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 30, 31, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,168 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,169 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (29, 30, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,170 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 31, 32, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,170 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (26, 27, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,171 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,172 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (29, 30, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,173 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 28, 29, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,173 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,175 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,176 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (29, 30, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,177 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 31, 32, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,177 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (23, 24, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,178 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,179 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (29, 30, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,179 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,181 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,181 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,182 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (29, 30, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,183 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 31, 32, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,184 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (26, 27, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,185 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,185 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (29, 30, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,186 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 25, 26, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,187 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,187 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,188 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (29, 30, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,189 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 31, 32, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,190 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (15, 16, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,190 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,191 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (29, 30, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,192 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,193 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 34, 35, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,194 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,195 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,195 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 35, 36, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,196 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (30, 31, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,197 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,197 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,198 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 32, 33, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,200 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,200 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,201 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,203 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 35, 36, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,204 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (27, 28, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,205 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,205 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,205 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,207 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,208 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,209 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,209 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 35, 36, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,210 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (30, 31, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,210 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,212 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,212 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 29, 30, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,213 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,213 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,214 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,215 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 35, 36, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,215 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (15, 16, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,218 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,218 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,219 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,219 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,219 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,220 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,221 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 35, 36, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,222 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (30, 31, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,223 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,223 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,224 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 32, 33, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,224 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,226 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,226 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,226 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 35, 36, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,227 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (24, 25, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,228 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,228 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,229 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,229 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,229 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,231 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,234 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 35, 36, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,234 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (30, 31, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,234 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,235 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,236 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 21, 22, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,237 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,238 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,239 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,239 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 35, 36, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,241 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (15, 16, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,241 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,242 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (33, 34, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,242 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,243 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 38, 39, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,243 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,244 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,244 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,244 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (34, 35, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,245 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,246 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,246 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 36, 37, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,246 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,247 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,247 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,247 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,248 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (31, 32, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,249 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,249 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,249 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,249 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,250 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,251 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,251 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,251 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (34, 35, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,252 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,252 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,253 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 33, 34, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,253 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,253 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,253 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,254 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,254 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (15, 16, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,255 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,255 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,255 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,255 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,257 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,257 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,257 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,258 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (34, 35, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,258 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,258 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,258 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 36, 37, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,259 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,260 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,260 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,261 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,261 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (28, 29, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,262 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,262 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,263 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,263 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,263 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,263 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,265 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,265 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (34, 35, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,266 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,266 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,267 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 21, 22, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,267 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,268 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,268 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,268 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,269 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (15, 16, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,269 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,270 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,270 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,270 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,271 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,271 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,271 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,271 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (34, 35, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,272 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,273 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,273 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 36, 37, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,273 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,274 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,274 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,275 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,275 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (31, 32, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,275 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,275 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,276 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,277 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,277 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,277 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,278 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,278 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (34, 35, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,279 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,279 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,279 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 30, 31, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,279 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,280 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,281 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,281 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,281 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (15, 16, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,282 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,282 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,283 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,283 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,283 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,283 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,284 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,284 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (34, 35, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,284 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,285 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,286 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 36, 37, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,286 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,286 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,286 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,286 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,288 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (20, 21, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,288 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,288 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,289 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,289 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,290 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,290 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,290 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,290 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (34, 35, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,291 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,291 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,292 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 21, 22, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,292 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,293 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,293 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,294 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 39, 40, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,294 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (15, 16, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,294 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,295 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (37, 38, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,295 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 16, 17, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+
+18-03-2019  15:45:56,295 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (10, 11, 42, 43, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, CornerPoint
+	Angle, HalfLine
+	Angle, LineSegment
+	Axis, Altitude
+	Axis, LineSegment
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	MidPoint, HalfLine
+	MidPoint, LineSegment
+
+18-03-2019  15:45:56,295 :  Graph Bdo8.txt has 25 transitions
+edge vertices are (5, 6, 11, 12, 1)
+	Altitude, Altitude
+	Altitude, Angle
+	Altitude, Axis
+	Altitude, HalfLine
+	Altitude, LineSegment
+	Angle, Altitude
+	Angle, HalfLine
+	Axis, Altitude
+	CornerPoint, Angle
+	CornerPoint, HalfLine
+	CornerPoint, LineSegment
+	HalfLine, Altitude
+	HalfLine, Angle
+	HalfLine, CornerPoint
+	HalfLine, HalfLine
+	HalfLine, LineSegment
+	HalfLine, MidPoint
+	LineSegment, Altitude
+	LineSegment, Angle
+	LineSegment, Axis
+	LineSegment, CornerPoint
+	LineSegment, HalfLine
+	LineSegment, LineSegment
+	LineSegment, MidPoint
+	MidPoint, HalfLine
+

@@ -1,0 +1,65 @@
+1
+1
+{ Odvodeny zo snarku HED0A.44 substituciou 2-vrcholoveho (2,2)-polu J }
+{ na vrcholoch 43-44 12-vrcholovym (2,2)-polom skonstruovanym nasledovne: }
+{ Zoberieme karteziansky sucin 3-cesta x K_2. Hrany v krajnych 4-cykloch }
+{ spajajuce vrcholy stupna 2 subdividujeme, subdividujeme aj jednu hranu }
+{ vnutorneho 4-cyklu leziacu na kopii 3-cesty. Tri vrcholy ziskane subdiviziou }
+{ spojime s dalsim novym vrcholom. K zostavajucim 2-valentnym vrcholom pripojime }
+{ polhrany, cim vznikne (2,2)-pol. } 
+{ cc=4, odd=4, res=3, pmi=5 podla konstrukcie }
+54
+1 6 53
+0 2 5
+1 3 10
+2 4 6
+3 5 52
+1 4 7
+0 3 7
+5 6 8
+7 9 16
+8 10 33
+2 9 11
+10 12 15
+11 13 18
+12 14 16
+13 15 21
+11 14 17
+8 13 17
+15 16 18
+12 17 19
+18 20 27
+19 21 33
+14 20 22
+21 23 26
+22 24 29
+23 25 27
+24 26 32
+22 25 28
+19 24 28
+26 27 29
+23 28 30
+29 31 39
+30 32 33
+25 31 34
+9 20 31
+32 35 38
+34 36 41
+35 37 39
+36 38 44
+34 37 40
+30 36 40
+38 39 41
+35 40 42
+41 43 46
+42 44 50
+37 43 45
+44 46 49
+42 45 47
+46 48 53
+47 49 52
+45 48 50
+43 49 51
+50 52 53
+4 48 51
+0 47 51

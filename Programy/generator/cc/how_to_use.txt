@@ -1,0 +1,14 @@
+0.   Vlozte subor s grafmi ktore chcete testovat do priecinku grafy (mal by byt v rovnakom priecinku ako executable)
+1.   spustte program:
+	Windows - final_version.exe
+	Linux   - volajte z konzoli 'cesky'
+2.   Zadajte formát grafu
+	Formáty sú opísané v about_input.txt
+	Pokial mate graf od Skovieru, format je pravdepodobne 3
+	Priklad: '3'
+3.   Zadajte nazov suboru s grafmi
+	Priklad: 'ODD4.44'
+4.   Precitajte Output
+	Output je opisany v about_output.txt
+	Pokial vedla executable existuje priecinok 'Results', ulozi output do 'Results\inputfile.txt' 
+kde 'inputfile' je nazov vstupneho suboru (zadali ste v bode 3)

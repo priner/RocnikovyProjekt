@@ -1,0 +1,59 @@
+1
+1
+{ Snark ziskany nasledujucou superpoziciou do 5-cyklu v Ps: } 
+{ Superhrany su nevlastne 2,2)-poly radu 8 ziskane odstranenim dvojice } 
+{ susednych vrcholov z PG; su typu A a B  pricom typ B vznikne }
+{ transpoziciou polhran v jednom 2-konektore dipolu typu A. } 
+{ Supervrcholy su (2,1,2)-poly radu 1. Postupnost superhran je BBBBB }
+{ Snark ma realne tokove cislo 5, neparnost 4 a rezistenciu 3. }
+50
+2 3 5
+3 4 6
+0 4 7
+0 1 8
+1 2 9
+0 34 35
+1 14 38
+2 19 41
+3 24 44
+4 29 47
+12 13 49
+13 14 35
+10 14 36
+10 11 37
+6 11 12
+17 18 37
+18 19 38
+15 19 39
+15 16 40
+7 16 17
+22 23 40
+23 24 41
+20 24 42
+20 21 43
+8 21 22
+27 28 43
+28 29 44
+25 29 45
+25 26 46
+9 26 27
+32 33 46
+33 34 47
+30 34 48
+30 31 49
+5 31 32
+5 11 36
+12 35 37
+13 15 36
+6 16 39
+17 38 40
+18 20 39
+7 21 42
+22 41 43
+23 25 42
+8 26 45
+27 44 46
+28 30 45
+9 31 48
+32 47 49
+10 33 48

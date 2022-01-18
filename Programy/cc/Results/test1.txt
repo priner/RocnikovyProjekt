@@ -1,0 +1,12 @@
+# of graphs: 2
+
+graph no. 1
+# of vertices: 8
+girth: 4
+cc: 4
+==========================================================
+
+graph no. 2
+# of vertices: 8
+girth: 4
+cc: 4

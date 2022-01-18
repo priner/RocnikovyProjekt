@@ -1,0 +1,48 @@
+1
+1
+{ petersen po odstraneni cesty dlzky 2 }
+12
+1 4 11
+0 2 6
+1 3 7
+2 4 9
+0 3 5
+4 6 8
+1 5 10
+2
+5
+3
+6
+0
+2
+7 8
+9 10
+
+-----------------------------------------------
+
+Altitude, Altitude
+Altitude, Angle
+Altitude, Axis
+Altitude, HalfLine
+Altitude, LineSegment
+Angle, Altitude
+Angle, CornerPoint
+Angle, HalfLine
+Angle, LineSegment
+Axis, Altitude
+Axis, LineSegment
+CornerPoint, Angle
+CornerPoint, HalfLine
+CornerPoint, LineSegment
+HalfLine, Altitude
+HalfLine, Angle
+HalfLine, CornerPoint
+HalfLine, MidPoint
+LineSegment, Altitude
+LineSegment, Angle
+LineSegment, Axis
+LineSegment, CornerPoint
+LineSegment, LineSegment
+LineSegment, MidPoint
+MidPoint, HalfLine
+MidPoint, LineSegment

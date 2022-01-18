@@ -1,0 +1,50 @@
+1
+1
+{ Permutacny snark radu 42, cc=5, bikriticky. }
+{ Ziskany z PERM.34 substituciou jedneho petersenovskeho negatora }
+{ vhodnym negatorom zo snarku B1.18. Cesta dlzky 2 komplementujuca v B2.18 }
+{ tento negator pretina hranu patriacu do oboch jeho cykly separujucich 4-rezov. }
+{ # odstranitelnych dvojic nesusednych hran = 23 }
+42
+1 20 21
+0 2 39
+1 3 31
+2 4 33
+3 5 28
+4 6 22
+5 7 29
+6 8 27
+7 9 30
+8 10 32
+9 11 37
+10 12 40
+11 13 38
+12 14 25
+13 15 23
+14 16 26
+15 17 35
+16 18 41
+17 19 34
+18 20 36
+0 19 24
+0 22 41
+5 21 23
+14 22 24
+20 23 25
+13 24 26
+15 25 27
+7 26 28
+4 27 29
+6 28 30
+8 29 31
+2 30 32
+9 31 33
+3 32 34
+18 33 35
+16 34 36
+19 35 37
+10 36 38
+12 37 39
+1 38 40
+11 39 41
+17 21 40
