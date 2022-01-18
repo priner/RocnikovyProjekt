@@ -33,7 +33,7 @@ def joinAllPossibleWays(comp, tops, old):
 			g.delete_vertex(tops[i])
 			g.delete_vertex(tops[i+1])
 			ts = [x for x in tops]
-			ts[i] = t;
+			ts[i] = t
 			ts.remove(tops[i+1])
 			old = joinAllPossibleWays(g, ts, old)
 
@@ -61,7 +61,7 @@ def joinAllPossibleWays(comp, tops, old):
 			ts.remove(tops[i+2])
 			ts.remove(tops[i+1])
 			ts.remove(tops[i])
-			old = joinAllPossibleWays(g, ts, old)	
+			old = joinAllPossibleWays(g, ts, old)
 
 
 	return old
@@ -83,10 +83,10 @@ def generate(component, level):
 		i2 = (i+1) % level
 		if i2 < 0:
 			i2 = i2 + level
-		base.add_edge([(i1, component.graph.neighbors(component.connectors[1][0])[0]), 
+		base.add_edge([(i1, component.graph.neighbors(component.connectors[1][0])[0]),
 			(i2, component.graph.neighbors(component.connectors[0][0])[0])])
 
-		base.add_edge([(i1, component.graph.neighbors(component.connectors[1][1])[0]), 
+		base.add_edge([(i1, component.graph.neighbors(component.connectors[1][1])[0]),
 			(i2, component.graph.neighbors(component.connectors[0][1])[0])])
 
 		base.delete_vertex((i1, component.connectors[1][0]))
@@ -105,7 +105,7 @@ def generate(component, level):
 #	base.delete_vertex(tops[0])
 #	base.delete_vertex(tops[1])
 #	tops.remove(tops[0])
-#	tops[0] = t	
+#	tops[0] = t
 
 #	return base
 
@@ -126,29 +126,28 @@ def main():
             level = int(ss[1])
         if ss[0] == "-outputFile":
             outputFile = ss[1]
-            
+
     if level == -1:
-        print "you need to provide level of graph in parameter 'level'"
+        print("you need to provide level of graph in parameter 'level'")
         exit(1)
 
     if level < 3:
-    	print "level must be greater than 2"
-    	exit(1)
+        print("level must be greater than 2")
+        exit(1)
 
     if outputFile == "":
-        print "you need to provide output file in parameter 'outputFile'"
+        print("you need to provide output file in parameter 'outputFile'")
         exit(1)
 
 
     XBcomponent = GeneratorHelper.parseComponents("XB")[0]
 
     generated = generate(XBcomponent, level)
-    
+
     toBr.printToFile(generated, outputFile)
 
-    print "generated", len(generated), "graphs"
+    print("generated", len(generated), "graphs")
 
 
 if __name__ == '__main__':
     main()
-
