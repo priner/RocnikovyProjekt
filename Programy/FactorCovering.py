@@ -43,8 +43,7 @@ def testGraph(graph, factors):
 
     os.remove(infilename)
 
-    splitted_lines = output.splitlines()
-    for line in splitted_lines:
+    for line in output.splitlines():
         line = line.decode()
         if line == "s UNSATISFIABLE":
             return False

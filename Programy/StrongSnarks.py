@@ -34,7 +34,7 @@ def testGraph(g):
 def testGraph3Coloring(graph):
 
     infile, infilename = tempfile.mkstemp(suffix="cnf")
-        
+
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
     varsCounter = 1
@@ -43,20 +43,21 @@ def testGraph3Coloring(graph):
     for i in range(len(graph)):
         for j in range(len(graph)):
             if graph.has_edge(i,j):
-                edgeVars[i][j] = range(3)
+                edgeVars[i][j] = list(range(3))
             for k in range(len(edgeVars[i][j])):
-                edgeVars[i][j][k] = varsCounter;
+                edgeVars[i][j][k] = varsCounter
                 varToGraph[varsCounter] = [i,j,k]
                 varsCounter = varsCounter+1
 
     conditions = symetryConditions(edgeVars, graph) \
         + atLeastOneColorPerEdge(edgeVars, graph) \
         + atMostOneColorPerEdge(edgeVars, graph) \
-        + atMostOneEdgePerColor(edgeVars, graph) 
+        + atMostOneEdgePerColor(edgeVars, graph)
 
     s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
     s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
 
+    s = s.encode()
     os.write(infile, s)
     os.close(infile)
 
@@ -66,7 +67,8 @@ def testGraph3Coloring(graph):
 
     os.remove(infilename)
 
-    for line in str(output).split("\n"):
+    for line in output.splitlines():
+        line = line.decode()
         if line == "s UNSATISFIABLE":
             return False
 
@@ -125,25 +127,24 @@ def main():
             graphsPath = ss[1]
         if ss[0] == "-printWrong":
             printWrong = True
-            
+
     if graphsPath == "":
-        print "you need to provide path to graph file in parameter 'graph'"
+        print("you need to provide path to graph file in parameter 'graph'")
         exit(1)
 
     graphs = [Graph(g) for g in GraphParser.parse(graphsPath)]
 
     for i in range(len(graphs)):
-        print "graph", i+1
+        print("graph", i+1)
         g = graphs[i]
         testResult = testGraph(g)
         if testResult == True:
-            print "strong"
+            print("strong")
         else:
-            print "not strong"
+            print("not strong")
             if printWrong:
-                print testResult
+                print(testResult)
 
 
 if __name__ == '__main__':
     main()
-
