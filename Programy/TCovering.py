@@ -42,9 +42,9 @@ def testGraph(graph):
     for i in range(len(graph)):
         for j in range(len(graph)):
             if graph.has_edge(i,j):
-                edgeVars[i][j] = range(colors)
+                edgeVars[i][j] = list(range(colors))
             for k in range(len(edgeVars[i][j])):
-                edgeVars[i][j][k] = varsCounter;
+                edgeVars[i][j][k] = varsCounter
                 varToGraph[varsCounter] = [i,j,k]
                 varsCounter = varsCounter+1
 
@@ -57,7 +57,11 @@ def testGraph(graph):
     s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
     s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
 
+    print(type(infile))
+    print(type(s))
+    s = s.encode()
     os.write(infile, s)
+    print(infile)
     os.close(infile)
 
     process = Popen(["./lingeling", infilename], stdout=PIPE)
@@ -162,25 +166,25 @@ def main():
             printColoring = True
 
     if graphsPath == "":
-        print "you need to provide path to graph file in parameter 'graph'"
+        print("you need to provide path to graph file in parameter 'graph'")
         exit(1)
 
     graphs = [Graph(g) for g in GraphParser.parse(graphsPath)]
 
     for i in range(len(graphs)):
-        print "graph", i+1
+        print("graph", i+1)
         g = graphs[i]
         testResult = testGraph(g)
         if testResult == False:
-            print "without coloring"
+            print("without coloring")
         else:
-            print "coloring exists"
+            print("coloring exists")
             if printColoring:
                 for u in range(len(g)):
                     for v in g.neighbors(u):
-                        print u, v, "->", 
+                        print(u, v, "->")
                         c = colorValues[testResult[(u,v)]]  
-                        print "".join([ str(int((c&(2**i)) != 0)) for i in range(3,-1,-1)])
+                        print("".join([ str(int((c&(2**i)) != 0)) for i in range(3,-1,-1)]))
 
 if __name__ == '__main__':
     main()
