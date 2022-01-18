@@ -52,7 +52,7 @@ def testGraph(graph):
         + atLeastOnePerEdge(edgeVars, graph, configuration) \
         + atMostOnePerEdge(edgeVars, graph, configuration) \
         + additionalConditions(edgeVars, graph, configuration) \
-       + blockConditions(edgeVars, graph, configuration) 
+       + blockConditions(edgeVars, graph, configuration)
 
     s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
     s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
@@ -60,10 +60,6 @@ def testGraph(graph):
     s = s.encode()
     os.write(infile, s)
     os.close(infile)
-
-    # with open(infilename, 'w') as f:
-    #     f.write(s)
-    # os.close(infile)
 
     process = Popen(["./lingeling", infilename], stdout=PIPE)
     (output, err) = process.communicate()
@@ -73,7 +69,6 @@ def testGraph(graph):
 
     coloring = {}
     splitted_lines = output.splitlines()
-    # print(splitted_lines)
     for line in splitted_lines:
         line = line.decode()
         if line == "s UNSATISFIABLE":
