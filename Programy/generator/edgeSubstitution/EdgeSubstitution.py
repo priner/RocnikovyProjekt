@@ -2,6 +2,7 @@ import sys
 sys.path.append('../')
 sys.path.append('../../')
 
+from subprocess import *
 import itertools
 import GraphParser
 import toBr
