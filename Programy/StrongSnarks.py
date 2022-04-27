@@ -1,5 +1,6 @@
 from subprocess import *
 from sage.all import *
+from SatSolver import solveSAT
 import sys
 import GraphParser
 import tempfile
@@ -37,7 +38,7 @@ def testGraph3Coloring(graph):
 
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
-    varsCounter = 1
+    varsCounter = 0
     varToGraph = {}
 
     for i in range(len(graph)):
@@ -45,9 +46,9 @@ def testGraph3Coloring(graph):
             if graph.has_edge(i,j):
                 edgeVars[i][j] = list(range(3))
             for k in range(len(edgeVars[i][j])):
+                varsCounter = varsCounter+1
                 edgeVars[i][j][k] = varsCounter
                 varToGraph[varsCounter] = [i,j,k]
-                varsCounter = varsCounter+1
 
     conditions = symetryConditions(edgeVars, graph) \
         + atLeastOneColorPerEdge(edgeVars, graph) \
@@ -57,15 +58,7 @@ def testGraph3Coloring(graph):
     s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
     s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
 
-    s = s.encode()
-    os.write(infile, s)
-    os.close(infile)
-
-    process = Popen(["./lingeling", infilename], stdout=PIPE)
-    (output, err) = process.communicate()
-    exit_code = process.wait()
-
-    os.remove(infilename)
+    output = solveSAT(s)
 
     for line in output.splitlines():
         line = line.decode()

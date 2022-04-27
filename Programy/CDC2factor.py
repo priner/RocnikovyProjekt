@@ -1,5 +1,6 @@
 from subprocess import *
 from sage.all import *
+from SatSolver import solveSAT
 import sys
 import GraphParser
 import tempfile
@@ -13,7 +14,7 @@ def testGraph(graph):
 
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
-    varsCounter = 1
+    varsCounter = 0
     varToGraph = {}
 
     for i in range(len(graph)):
@@ -21,9 +22,9 @@ def testGraph(graph):
             if graph.has_edge(i,j):
                 edgeVars[i][j] = list(range(maxCycles))
             for k in range(len(edgeVars[i][j])):
+                varsCounter = varsCounter+1
                 edgeVars[i][j][k] = varsCounter
                 varToGraph[varsCounter] = [i,j,k]
-                varsCounter = varsCounter+1
 
     conditions = symetryConditions(edgeVars, graph) \
         + atLeastOneCyclePerEdge(edgeVars, graph) \
@@ -39,15 +40,7 @@ def testGraph(graph):
     print("vars", varsCounter)
     print("clausses", len(conditions))
 
-    s = s.encode()
-    os.write(infile, s)
-    os.close(infile)
-
-    process = Popen(["./lingeling", infilename], stdout=PIPE)
-    (output, err) = process.communicate()
-    exit_code = process.wait()
-
-    os.remove(infilename)
+    output = solveSAT(s)
 
     cycles = {}
 

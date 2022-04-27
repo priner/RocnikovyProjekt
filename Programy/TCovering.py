@@ -1,11 +1,11 @@
 from subprocess import *
 from sage.all import *
+from SatSolver import solveSAT
 import sys
 import GraphParser
 import tempfile
 import time
 import os
-
 
 colors = 10
 configuration = [
@@ -18,21 +18,19 @@ configuration = [
 
 
 colorValues = {
-    0: 7,
-    1: 12,
-    2: 11,
-    3: 9,
-    4: 10,
-    5: 5,
-    6: 6,
-    7: 14,
-    8: 3,
-    9: 13
+    0: "1",
+    1: "12",
+    2: "2",
+    3: "13",
+    4: "14",
+    5: "23",
+    6: "24",
+    7: "3",
+    8: "34",
+    9: "4"
 }
 
 def testGraph(graph):
-
-    infile, infilename = tempfile.mkstemp(suffix="cnf")
 
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
@@ -44,9 +42,9 @@ def testGraph(graph):
             if graph.has_edge(i,j):
                 edgeVars[i][j] = list(range(colors))
             for k in range(len(edgeVars[i][j])):
+                varsCounter = varsCounter+1
                 edgeVars[i][j][k] = varsCounter
                 varToGraph[varsCounter] = [i,j,k]
-                varsCounter = varsCounter+1
 
     conditions = symetryConditions(edgeVars, graph, configuration) \
         + atLeastOnePerEdge(edgeVars, graph, configuration) \
@@ -57,15 +55,7 @@ def testGraph(graph):
     s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
     s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
 
-    s = s.encode()
-    os.write(infile, s)
-    os.close(infile)
-
-    process = Popen(["./lingeling", infilename], stdout=PIPE)
-    (output, err) = process.communicate()
-    exit_code = process.wait()
-
-    os.remove(infilename)
+    output = solveSAT(s)
 
     coloring = {}
     splitted_lines = output.splitlines()
@@ -179,9 +169,7 @@ def main():
             if printColoring:
                 for u in range(len(g)):
                     for v in g.neighbors(u):
-                        print(u, v, "->")
-                        c = colorValues[testResult[(u,v)]]
-                        print("".join([ str(int((c&(2**i)) != 0)) for i in range(3,-1,-1)]))
+                        print(u, v, "->", colorValues[testResult[(u,v)]])
 
 if __name__ == '__main__':
     main()
