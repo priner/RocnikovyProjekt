@@ -1,34 +1,12 @@
 from subprocess import *
 from sage.all import *
 from SatSolver import solveSAT
+from Steiner import colors, configuration, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions
 import sys
 import GraphParser
 import tempfile
 import time
 import os
-
-colors = 10
-configuration = [
-    [0,1,2],
-    [0,3,7],
-    [0,4,9],
-    [2,5,7],
-    [2,6,9],
-    [7,8,9]]
-
-
-colorValues = {
-    0: "1",
-    1: "12",
-    2: "2",
-    3: "13",
-    4: "14",
-    5: "23",
-    6: "24",
-    7: "3",
-    8: "34",
-    9: "4"
-}
 
 def testGraph(graph):
 
@@ -46,11 +24,11 @@ def testGraph(graph):
                 edgeVars[i][j][k] = varsCounter
                 varToGraph[varsCounter] = [i,j,k]
 
-    conditions = symetryConditions(edgeVars, graph, configuration) \
-        + atLeastOnePerEdge(edgeVars, graph, configuration) \
-        + atMostOnePerEdge(edgeVars, graph, configuration) \
-        + additionalConditions(edgeVars, graph, configuration) \
-       + blockConditions(edgeVars, graph, configuration)
+    conditions = symetryConditions(edgeVars, graph) \
+        + atLeastOnePerEdge(edgeVars, graph) \
+        + atMostOnePerEdge(edgeVars, graph) \
+        + additionalConditions(edgeVars, graph) \
+       + blockConditions(edgeVars, graph)
 
     s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
     s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
@@ -76,70 +54,12 @@ def testGraph(graph):
     return coloring
 
 # first edge has only 2 posibilities
-def additionalConditions(edgeVars, graph, configuration):
+def additionalConditions(edgeVars, graph):
     for i in range(len(graph)):
         for j in range(len(graph)):
             if len(edgeVars[i][j]) != 0:
                 return [[edgeVars[i][j][0], edgeVars[i][j][1]]]
 
-def symetryConditions(edgeVars, graph, configuration):
-    res = []
-    for i in range(len(graph)):
-        for j in range(len(graph)):
-            for k in range(len(edgeVars[i][j])):
-                res.append([-edgeVars[i][j][k],edgeVars[j][i][k]])
-                res.append([edgeVars[i][j][k],-edgeVars[j][i][k]])
-
-    return res
-
-def atLeastOnePerEdge(edgeVars, graph, configuration):
-    res = []
-    for i in range(len(graph)):
-        for j in range(len(graph)):
-            if len(edgeVars[i][j]) != 0:
-                res.append(edgeVars[i][j])
-
-    return res
-
-def atMostOnePerEdge(edgeVars, graph, configuration):
-    res = []
-    for i in range(len(graph)):
-        for j in range(len(graph)):
-            for k1 in edgeVars[i][j]:
-                for k2 in edgeVars[i][j]:
-                    if k1 != k2:
-                        res.append([-k1, -k2])
-
-    return res
-
-def blockConditions(edgeVars, graph, configuration):
-    res = []
-    for row in edgeVars:
-        nieghbors = [i for i in range(len(row)) if len(row[i]) > 0 ]
-        for column1 in nieghbors:
-            for column2 in nieghbors:
-                if column1 != column2:
-                    for color1 in range(len(row[column1])):
-                        nextColors = []
-                        for block in configuration:
-                            if color1 in block:
-                                for color2 in block:
-                                    if color1 != color2:
-                                        nextColors.append(row[column2][color2])
-                        res.append([-row[column1][color1]] + nextColors)
-
-        for column1 in nieghbors:
-            for column2 in nieghbors:
-                for column3 in nieghbors:
-                    if len({column1, column2, column3}) == 3:
-                        for block in configuration:
-                            for color1 in block:
-                                for color2 in block:
-                                    for color3 in block:
-                                        if len({color1, color2, color3}) == 3:
-                                           res.append([-row[column1][color1], -row[column2][color2], row[column3][color3]])
-
-    return res
 
 def main():
     printColoring = False
@@ -169,7 +89,7 @@ def main():
             if printColoring:
                 for u in range(len(g)):
                     for v in g.neighbors(u):
-                        print(u, v, "->", colorValues[testResult[(u,v)]])
+                        print(u, v, "->", colorNames[testResult[(u,v)]])
 
 if __name__ == '__main__':
     main()
