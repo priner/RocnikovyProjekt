@@ -1,3 +1,5 @@
+import itertools
+
 colors = 10
 configuration = [
     [0,1,2],
@@ -35,6 +37,46 @@ colorValues = {
     9: 0b1101,
 }
 
+fromName = {v: k for k, v in colorNames.items()}
+fromValue = {v: k for k, v in colorValues.items()}
+
+_allVertexMappings = list(map(lambda pm: {str(i+1):pm[i] for i in range(4)}, itertools.permutations('1234')))
+
+def _mapPoint(vertex_mapping, original_array):
+    new_array = []
+
+    for point in original_array:
+        newPoint = ""
+        for v in point:
+            newPoint += vertex_mapping[v]
+
+        new_array.append(''.join(sorted(newPoint)))
+
+    return tuple(new_array)
+
+def _toCanonical(original_array):
+    return min(map(lambda vm: _mapPoint(vm, original_array), _allVertexMappings))
+
+def toCanonical(original_array):
+    return list(map(lambda n: fromName[n], _toCanonical(list(map(lambda c: colorNames[c], original_array)))))
+
+def _allColorings(length):
+    return sorted(set(map(_toCanonical, itertools.product([colorNames[c] for c in range(10)], repeat=length))))
+
+def allColorings(length):
+    res = []
+    for coloring in _allColorings(length):
+        res.append(list(map(lambda n: fromName[n], coloring)))
+
+    return res
+
+def isZeroSum(array):
+    s = 0;
+    for color in array:
+        s ^= colorValues[color]
+    return s == 0
+
+# Common conditions for SAT
 
 def symetryConditions(edgeVars, graph):
     res = []
@@ -70,6 +112,8 @@ def blockConditions(edgeVars, graph):
     res = []
     for row in edgeVars:
         nieghbors = [i for i in range(len(row)) if len(row[i]) > 0 ]
+        if len(nieghbors) != 3:
+            continue
         for column1 in nieghbors:
             for column2 in nieghbors:
                 if column1 != column2:
