@@ -1,7 +1,7 @@
 from subprocess import *
 from sage.all import *
 from SatSolver import solveSAT
-from Steiner import isZeroSum, colors, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions, allColorings
+from Steiner import connectorType, toCanonical, isZeroSum, colors, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions, allColorings
 import sys
 import GraphParser
 import tempfile
@@ -87,8 +87,18 @@ def main():
         print("graph", i+1)
         graph, connectors = components[i]
         testResult = testComponent(graph, connectors)
+
+        summary = set()
         for coloring in testResult:
-            print(*map(lambda c: colorNames[c].rjust(2), coloring[0:2*len(connectors)]))
+            connectorColors = [(coloring[2*i], coloring[2*i+1]) for i in range(len(connectors))]
+            print(*map(lambda c: colorNames[c].rjust(2), coloring[0:2*len(connectors)]), end=4*" ")
+            connectorTypes = tuple(map(lambda cc: connectorType[toCanonical(cc)], connectorColors))
+            print(*connectorTypes)
+            summary.add(connectorTypes)
+
+        print()
+        for ct in sorted(summary):
+            print(*ct)
 
 if __name__ == '__main__':
     main()

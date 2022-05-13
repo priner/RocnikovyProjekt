@@ -37,6 +37,18 @@ colorValues = {
     9: 0b1101,
 }
 
+connectorType = {
+    (0, 0): "CornerPoint",
+    (0, 1): "HalfLine",
+    (0, 2): "Edge",
+    (0, 5): "Altitude",
+    (1, 0): "HalfLine",
+    (1, 1): "MidPoint",
+    (1, 3): "Angle",
+    (1, 7): "Altitude",
+    (1, 8): "Axis",
+}
+
 fromName = {v: k for k, v in colorNames.items()}
 fromValue = {v: k for k, v in colorValues.items()}
 
@@ -58,7 +70,7 @@ def _toCanonical(original_array):
     return min(map(lambda vm: _mapPoint(vm, original_array), _allVertexMappings))
 
 def toCanonical(original_array):
-    return list(map(lambda n: fromName[n], _toCanonical(list(map(lambda c: colorNames[c], original_array)))))
+    return tuple(map(lambda n: fromName[n], _toCanonical(list(map(lambda c: colorNames[c], original_array)))))
 
 def _allColorings(length):
     return sorted(set(map(_toCanonical, itertools.product([colorNames[c] for c in range(10)], repeat=length))))
@@ -66,7 +78,7 @@ def _allColorings(length):
 def allColorings(length):
     res = []
     for coloring in _allColorings(length):
-        res.append(list(map(lambda n: fromName[n], coloring)))
+        res.append(tuple(map(lambda n: fromName[n], coloring)))
 
     return res
 
