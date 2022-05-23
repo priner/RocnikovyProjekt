@@ -1,12 +1,8 @@
-from subprocess import *
-from sage.all import *
+from sage.all import Graph
 from SatSolver import solveSAT
 from Steiner import connectorType, toCanonical, isZeroSum, colors, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions, allColorings
 import sys
 import GraphParser
-import tempfile
-import time
-import os
 
 def endpointVerticies(graph):
     res = []

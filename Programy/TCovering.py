@@ -1,12 +1,8 @@
-from subprocess import *
-from sage.all import *
+from sage.all import Graph
 from SatSolver import solveSAT
 from Steiner import colors, configuration, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions
 import sys
 import GraphParser
-import tempfile
-import time
-import os
 
 def testGraph(graph):
 

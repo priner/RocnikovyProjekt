@@ -1,14 +1,8 @@
-from subprocess import *
-from sage.all import *
+from sage.all import Graph
 from SatSolver import solveSAT
 import sys
 import GraphParser
-import tempfile
-import time
-import os
 import FactorCovering
-
-
 
 def testGraph(g):
 
@@ -33,8 +27,6 @@ def testGraph(g):
 
 
 def testGraph3Coloring(graph):
-
-    infile, infilename = tempfile.mkstemp(suffix="cnf")
 
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 

@@ -1,16 +1,11 @@
-from subprocess import *
-from sage.all import *
+from sage.all import Graph
 from SatSolver import solveSAT
 import sys
 import GraphParser
-import tempfile
-import os
 
 
 def testGraph(graph):
     maxCycles =  int(len(graph) * 0.6) + 1
-
-    infile, infilename = tempfile.mkstemp(suffix="cnf")
 
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
