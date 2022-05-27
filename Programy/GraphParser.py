@@ -1,4 +1,15 @@
-from sage.all import *
+from sage.all import Graph
+
+def endpointVerticies(graph):
+    res = []
+    for v in graph.vertices():
+        if len(graph.neighbors(v)) == 1:
+            res.append(v)
+
+    return res
+
+def residualVerticies(graph, connectors):
+    return list(filter(lambda v: v not in sum(connectors,()), endpointVerticies(graph)))
 
 def parse(fileName):
 	file = open(fileName, "r")

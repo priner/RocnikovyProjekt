@@ -1,10 +1,10 @@
 from sage.all import Graph
 from SatSolver import solveSAT
-from Steiner import connectorType, toCanonical, isZeroSum, colors, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions, allColorings
+from Steiner import cycleType, toCanonicalCycle, isZeroSum, colors, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions, allColorings
 import sys
-from GraphParser import parseComponent, residualVerticies, endpointVerticies
+from GraphParser import parseComponent, endpointVerticies
 
-def testComponent(graph, connectors):
+def testCycle(graph, cycle):
 
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
@@ -25,7 +25,8 @@ def testComponent(graph, connectors):
         + atMostOnePerEdge(edgeVars, graph) \
        + blockConditions(edgeVars, graph)
 
-    endpoints = list(sum(connectors,())) + residualVerticies(graph, connectors)
+    endpoints = list(cycle)
+    assert len(endpoints) == len(endpointVerticies(graph))
 
     validColorings = []
     for coloring in filter(isZeroSum, allColorings(len(endpoints))):
@@ -42,7 +43,7 @@ def testComponent(graph, connectors):
             if line == "s SATISFIABLE":
                 validColorings.append(coloring)
 
-    return validColorings
+    return sorted(set(map(toCanonicalCycle, validColorings)))
 
 def endpointConditions(edgeVars, graph, endpoints, coloring):
     res = []
@@ -69,20 +70,21 @@ def main():
 
     for i in range(len(components)):
         print("graph", i+1)
-        graph, connectors = components[i]
-        testResult = testComponent(graph, connectors)
+        graph, (cycle,) = components[i]
+        testResult = testCycle(graph, cycle)
 
-        summary = set()
+        # summary = set()
         for coloring in testResult:
-            connectorColors = [(coloring[2*i], coloring[2*i+1]) for i in range(len(connectors))]
-            print(*map(lambda c: colorNames[c].rjust(2), coloring[0:2*len(connectors)]), end=4*" ")
-            connectorTypes = tuple(map(lambda cc: connectorType[toCanonical(cc)], connectorColors))
-            print(*connectorTypes)
-            summary.add(connectorTypes)
+            print(*map(lambda c: colorNames[c].rjust(2), coloring), end=4*" ")
+            print(cycleType[coloring])
+        #     summary.add(connectorTypes)
 
-        print()
-        for ct in sorted(summary):
-            print(*ct)
+        # print()
+        # for ct in sorted(summary):
+        #     print(*ct)
+
+
+        # TODO TREBA VACSIU RYCHLOST !!!!!!
 
 if __name__ == '__main__':
     main()

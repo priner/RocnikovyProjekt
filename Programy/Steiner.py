@@ -49,6 +49,47 @@ connectorType = {
     (1, 8): "Axis",
 }
 
+cycleType= {
+    (0, 0, 0, 1, 2): "CornerPoint Line",
+    (0, 0, 1, 0, 2): "CornerPoint Line", 
+    (0, 0, 1, 3, 5): "CornerPoint Circle", 
+    (0, 0, 1, 5, 3): "CornerPoint Circle", 
+    (0, 0, 2, 5, 7): "CornerPoint Line", 
+    (0, 0, 2, 7, 5): "CornerPoint Line", 
+    (0, 0, 5, 6, 8): "CornerPoint Circle", 
+    (0, 1, 0, 3, 5): "CornerPoint Circle", 
+    (0, 1, 1, 1, 2): "MidPoint Line", 
+    (0, 1, 1, 2, 1): "MidPoint Line", 
+    (0, 1, 1, 3, 7): "MidPoint Line", 
+    (0, 1, 1, 7, 3): "MidPoint Line", 
+    (0, 1, 2, 8, 8): "MidPoint Line", 
+    (0, 1, 3, 0, 5): "CornerPoint Circle", 
+    (0, 1, 3, 1, 7): "MidPoint Line", 
+    (0, 1, 3, 2, 3): "MidPoint Line", 
+    (0, 1, 3, 3, 2): "MidPoint Line", 
+    (0, 1, 3, 7, 1): "MidPoint Line", 
+    (0, 1, 5, 8, 9): "Edge Screw", 
+    (0, 1, 5, 9, 8): "Edge Screw", 
+    (0, 1, 7, 2, 7): "CornerPoint Line", 
+    (0, 1, 7, 6, 8): "Edge Screw", 
+    (0, 1, 8, 2, 8): "MidPoint Line", 
+    (0, 1, 8, 5, 9): "Edge Screw", 
+    (0, 1, 8, 7, 6): "Edge Screw", 
+    (0, 1, 8, 8, 2): "MidPoint Line", 
+    (0, 2, 3, 2, 7): "CornerPoint Line", 
+    (0, 2, 3, 6, 8): "Edge Screw", 
+    (0, 2, 3, 8, 6): "Edge Screw", 
+    (0, 2, 8, 1, 8): "MidPoint Line", 
+    (0, 5, 0, 6, 8): "CornerPoint Circle", 
+    (0, 5, 4, 2, 8): "Edge Screw", 
+    (1, 1, 1, 3, 5): "MidPoint Circle", 
+    (1, 1, 3, 1, 5): "MidPoint Circle", 
+    (1, 1, 3, 4, 8): "MidPoint Circle", 
+    (1, 1, 3, 8, 4): "MidPoint Circle", 
+    (1, 3, 1, 4, 8): "MidPoint Circle", 
+    (1, 3, 4, 1, 8): "MidPoint Circle",
+}
+
 fromName = {v: k for k, v in colorNames.items()}
 fromValue = {v: k for k, v in colorValues.items()}
 
@@ -72,6 +113,13 @@ def _toCanonical(original_array):
 def toCanonical(original_array):
     return tuple(map(lambda n: fromName[n], _toCanonical(list(map(lambda c: colorNames[c], original_array)))))
 
+def toCanonicalCycle(original_array):
+    candidates = []
+    candidates += tuple(map(toCanonical, (original_array[i:] + original_array[:i] for i in range(len(original_array)))))
+    reversed_array = list(reversed(original_array))
+    candidates += tuple(map(toCanonical, (reversed_array[i:] + reversed_array[:i] for i in range(len(reversed_array)))))
+    return min(candidates)
+
 def _allColorings(length):
     return sorted(set(map(_toCanonical, itertools.product([colorNames[c] for c in range(10)], repeat=length))))
 
@@ -83,7 +131,7 @@ def allColorings(length):
     return res
 
 def isZeroSum(array):
-    s = 0;
+    s = 0
     for color in array:
         s ^= colorValues[color]
     return s == 0
