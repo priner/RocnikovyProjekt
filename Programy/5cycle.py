@@ -76,7 +76,7 @@ def main():
         # summary = set()
         for coloring in testResult:
             print(*map(lambda c: colorNames[c].rjust(2), coloring), end=4*" ")
-            print(cycleType[coloring])
+            print(cycleType[coloring][0].ljust(20), cycleType[coloring][1])
         #     summary.add(connectorTypes)
 
         # print()
