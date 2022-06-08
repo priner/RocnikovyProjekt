@@ -1,5 +1,5 @@
 from sage.all import Graph
-from SatSolver import solveSAT
+from SatSolver import solveSATparallel
 from Steiner import cycleType, toCanonicalCycle, isZeroSum, colors, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions, allColorings
 import sys
 from GraphParser import parseComponent, endpointVerticies
@@ -27,16 +27,23 @@ def testCycle(graph, cycle):
 
     endpoints = list(cycle)
     assert len(endpoints) == len(endpointVerticies(graph))
+    assert len(endpoints) == 5
 
-    validColorings = []
-    for coloring in filter(isZeroSum, allColorings(len(endpoints))):
+    colorings = list(filter(isZeroSum, allColorings(len(endpoints))))
+
+    inputs = []
+    for coloring in colorings:
         conditions = commonConditions + endpointConditions(edgeVars, graph, endpoints, coloring)
 
         s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
         s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
 
-        output = solveSAT(s)
+        inputs.append(s)
 
+    outputs = solveSATparallel(inputs)
+
+    validColorings = []
+    for output, coloring in zip(outputs, colorings):
         splitted_lines = output.splitlines()
         for line in splitted_lines:
             line = line.decode()
