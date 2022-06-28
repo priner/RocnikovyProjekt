@@ -57,7 +57,7 @@ def main():
     graphsPath = ""
 
     for s in sys.argv:
-        ss = s.split("=")
+        ss = s.split("=", maxsplit=1)
         if ss[0] == "-graph":
             graphsPath = ss[1]
 

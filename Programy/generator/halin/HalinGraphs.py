@@ -121,7 +121,7 @@ def main():
     outputFile = ""
 
     for s in sys.argv:
-        ss = s.split("=")
+        ss = s.split("=", maxsplit=1)
         if ss[0] == "-level":
             level = int(ss[1])
         if ss[0] == "-outputFile":

@@ -1,8 +1,9 @@
 from sage.all import Graph
 from SatSolver import solveSATparallel
-from Steiner import cycleType, toCanonicalCycle, isZeroSum, colors, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions, allColorings
+from Steiner import cycleType, toCanonicalCycle, colors, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions
 import sys
 from GraphParser import parseComponent, endpointVerticies
+from Precomputed import all5ColoringsZeroSum
 
 def testCycle(graph, cycle):
 
@@ -29,7 +30,7 @@ def testCycle(graph, cycle):
     assert len(endpoints) == len(endpointVerticies(graph))
     assert len(endpoints) == 5
 
-    colorings = list(filter(isZeroSum, allColorings(len(endpoints))))
+    colorings = all5ColoringsZeroSum
 
     inputs = []
     for coloring in colorings:
@@ -65,7 +66,7 @@ def main():
     graphsPath = ""
 
     for s in sys.argv:
-        ss = s.split("=")
+        ss = s.split("=", maxsplit=1)
         if ss[0] == "-graph":
             graphsPath = ss[1]
 

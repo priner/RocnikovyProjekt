@@ -100,7 +100,7 @@ def main():
     halinPath = "halinDipol"
 
     for s in sys.argv:
-        ss = s.split("=")
+        ss = s.split("=", maxsplit=1)
         if ss[0] == "-graph":
             graphsPath = ss[1]
         if ss[0] == "-outputFile":

@@ -16,7 +16,7 @@ verticesForSubstitution = []
 outputFileName = ""
 
 for s in sys.argv:
-	ss = s.split("=")
+	ss = s.split("=", maxsplit=1)
 	if ss[0] == "graph":
 		baseGraphName = ss[1]
 	if ss[0] == "sizes":
