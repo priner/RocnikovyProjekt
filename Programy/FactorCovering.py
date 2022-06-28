@@ -1,9 +1,10 @@
+import asyncio
 from sage.all import Graph
 from SatSolver import solveSAT
 import sys
 import GraphParser
 
-def testGraph(graph, factors):
+async def testGraph(graph, factors):
 
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
@@ -27,7 +28,7 @@ def testGraph(graph, factors):
     s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
     s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
 
-    output = solveSAT(s)
+    output = await solveSAT(s)
 
     for line in output.splitlines():
         line = line.decode()
@@ -78,7 +79,7 @@ def atLeastOneEdgePerFactor(edgeVars, graph, factors):
 
 
 
-def main():
+async def main():
     graphsPath = ""
     factors = 3
 
@@ -98,7 +99,7 @@ def main():
     for i in range(len(graphs)):
         print("graph", i+1)
         g = graphs[i]
-        testResult = testGraph(g, factors)
+        testResult = await testGraph(g, factors)
         if testResult == False:
             print("without covering")
         else:
@@ -106,4 +107,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    asyncio.run(main())

@@ -1,10 +1,11 @@
+import asyncio
 from sage.all import Graph
 from SatSolver import solveSAT
 import sys
 import GraphParser
 
 
-def testGraph(graph):
+async def testGraph(graph):
     maxCycles =  int(len(graph) * 0.6) + 1
 
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
@@ -35,7 +36,7 @@ def testGraph(graph):
     print("vars", varsCounter)
     print("clausses", len(conditions))
 
-    output = solveSAT(s)
+    output = await solveSAT(s)
 
     cycles = {}
 
@@ -132,7 +133,7 @@ def atMostTwoCyclesPerEdge(edgeVars, graph, maxCycles):
     return res
 
 
-def main():
+async def main():
     graphsPath = ""
     printCycles = 0
 
@@ -152,7 +153,7 @@ def main():
     for i in range(len(graphs)):
         print("graph", i+1)
         g = graphs[i]
-        testResult = testGraph(g)
+        testResult = await testGraph(g)
         if testResult == False:
             print("without CDC 2-factor")
         else:
@@ -185,4 +186,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    asyncio.run(main())

@@ -1,10 +1,11 @@
+import asyncio
 from sage.all import Graph
 from SatSolver import solveSAT
 from Steiner import colors, configuration, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions
 import sys
 import GraphParser
 
-def testGraph(graph):
+async def testGraph(graph):
 
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
@@ -29,7 +30,7 @@ def testGraph(graph):
     s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
     s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
 
-    output = solveSAT(s)
+    output = await solveSAT(s)
 
     coloring = {}
     splitted_lines = output.splitlines()
@@ -57,7 +58,7 @@ def additionalConditions(edgeVars, graph):
                 return [[edgeVars[i][j][0], edgeVars[i][j][1]]]
 
 
-def main():
+async def main():
     printColoring = False
     graphsPath = ""
 
@@ -77,7 +78,7 @@ def main():
     for i in range(len(graphs)):
         print("graph", i+1)
         g = graphs[i]
-        testResult = testGraph(g)
+        testResult =  await testGraph(g)
         if testResult == False:
             print("without coloring")
         else:
@@ -88,4 +89,4 @@ def main():
                         print(u, v, "->", colorNames[testResult[(u,v)]])
 
 if __name__ == '__main__':
-    main()
+    asyncio.run(main())

@@ -1,10 +1,11 @@
+import asyncio
 from sage.all import Graph
 from SatSolver import solveSAT
 from Steiner import connectorType, toCanonical, isZeroSum, colors, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions, allColorings
 import sys
 from GraphParser import parseComponent, residualVerticies, endpointVerticies
 
-def testComponent(graph, connectors):
+async def testComponent(graph, connectors):
 
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
@@ -34,7 +35,7 @@ def testComponent(graph, connectors):
         s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
         s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
 
-        output = solveSAT(s)
+        output = await solveSAT(s)
 
         splitted_lines = output.splitlines()
         for line in splitted_lines:
@@ -53,7 +54,7 @@ def endpointConditions(edgeVars, graph, endpoints, coloring):
     return res
 
 
-def main():
+async def main():
     graphsPath = ""
 
     for s in sys.argv:
@@ -70,7 +71,7 @@ def main():
     for i in range(len(components)):
         print("graph", i+1)
         graph, connectors = components[i]
-        testResult = testComponent(graph, connectors)
+        testResult = await testComponent(graph, connectors)
 
         summary = set()
         for coloring in testResult:
@@ -85,4 +86,4 @@ def main():
             print(*ct)
 
 if __name__ == '__main__':
-    main()
+    asyncio.run(main())

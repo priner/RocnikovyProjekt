@@ -1,3 +1,4 @@
+import asyncio
 from sage.all import Graph
 from SatSolver import solveSATparallel
 from Steiner import cycleType, toCanonicalCycle, colors, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions
@@ -5,7 +6,7 @@ import sys
 from GraphParser import parseComponent, endpointVerticies
 from Precomputed import all5ColoringsZeroSum
 
-def testCycle(graph, cycle):
+async def testCycle(graph, cycle):
 
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
@@ -41,7 +42,7 @@ def testCycle(graph, cycle):
 
         inputs.append(s)
 
-    outputs = solveSATparallel(inputs)
+    outputs = await solveSATparallel(inputs)
 
     validColorings = []
     for output, coloring in zip(outputs, colorings):
@@ -62,7 +63,7 @@ def endpointConditions(edgeVars, graph, endpoints, coloring):
     return res
 
 
-def main():
+async def main():
     graphsPath = ""
 
     for s in sys.argv:
@@ -79,7 +80,7 @@ def main():
     for i in range(len(components)):
         print("graph", i+1)
         graph, (cycle,) = components[i]
-        testResult = testCycle(graph, cycle)
+        testResult = await testCycle(graph, cycle)
 
         # summary = set()
         for coloring in testResult:
@@ -95,4 +96,4 @@ def main():
         # TODO TREBA VACSIU RYCHLOST !!!!!!
 
 if __name__ == '__main__':
-    main()
+    asyncio.run(main())

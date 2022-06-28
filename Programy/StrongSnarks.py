@@ -1,10 +1,11 @@
+import asyncio
 from sage.all import Graph
 from SatSolver import solveSAT
 import sys
 import GraphParser
 import FactorCovering
 
-def testGraph(g):
+async def testGraph(g):
 
     wrongPairs = []
 
@@ -17,7 +18,7 @@ def testGraph(g):
                 gg.delete_vertex(u)
                 gg.delete_vertex(v)
                 gg.relabel()
-                if testGraph3Coloring(gg):
+                if await testGraph3Coloring(gg):
                     wrongPairs.append([u,v])
 
     if len(wrongPairs) == 0:
@@ -26,7 +27,7 @@ def testGraph(g):
         return wrongPairs
 
 
-def testGraph3Coloring(graph):
+async def testGraph3Coloring(graph):
 
     edgeVars = [[[] for v in graph.vertices() ] for u in graph.vertices()]
 
@@ -50,7 +51,7 @@ def testGraph3Coloring(graph):
     s = "p cnf " + str(varsCounter) + " " + str(len(conditions)) + "\n"
     s = s + "\n".join([" ".join([str(x) for x in c]) + " 0" for c in conditions])
 
-    output = solveSAT(s)
+    output = await solveSAT(s)
 
     for line in output.splitlines():
         line = line.decode()
@@ -102,7 +103,7 @@ def atMostOneEdgePerColor(edgeVars, graph):
     return res
 
 
-def main():
+async def main():
     graphsPath = ""
     printWrong = 0
 
@@ -122,7 +123,7 @@ def main():
     for i in range(len(graphs)):
         print("graph", i+1)
         g = graphs[i]
-        testResult = testGraph(g)
+        testResult = await testGraph(g)
         if testResult == True:
             print("strong")
         else:
@@ -132,4 +133,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    asyncio.run(main())

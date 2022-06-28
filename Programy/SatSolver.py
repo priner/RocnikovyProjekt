@@ -1,40 +1,40 @@
-from subprocess import run, Popen, PIPE
+import asyncio
 
 satSolverPaths = [
-    ["./glucose", "-model"],
-    ["./glucose_static", "-model"],
-    ["glucose", "-model"],
-    ["./glucose-syrup", "-model"],
-    ["./glucose-syrup_static", "-model"],
-    ["glucose-syrup", "-model"],
+    "./glucose",
+    "./glucose_static",
+    "glucose",
+    "./glucose-syrup",
+    "./glucose-syrup_static",
+    "glucose-syrup",
 ]
 
-def solveSAT(inputCNF):
+async def solveSAT(inputCNF):
     for satSolver in satSolverPaths:
         try:
-            process = run(satSolver, input=inputCNF.encode(), capture_output=True)
+            process = await asyncio.create_subprocess_exec(
+                satSolver,
+                "-model",
+                stdin=asyncio.subprocess.PIPE,
+                stdout=asyncio.subprocess.PIPE,
+                stderr=asyncio.subprocess.PIPE,
+            )
             # print("Using", *satSolver)
             break
         except OSError:
             pass
-    return process.stdout
 
-def solveSATparallel(inputCNFlist):
+    stdout, stderr = await process.communicate(inputCNF.encode())
+    return stdout
+
+async def solveSATparallel(inputCNFlist):
     processes = []
 
     for inputCNF in inputCNFlist:
-        for satSolver in satSolverPaths:
-            try:
-                process = Popen(satSolver, stdin=PIPE, stdout=PIPE)
-                # print("Using", *satSolver)
-                break
-            except OSError:
-                pass
-        process.stdin.write(inputCNF.encode())
-        processes.append(process)
+        processes.append(asyncio.create_task(solveSAT(inputCNF)))
 
     outputs = []
     for process in processes:
-        stdout, stderr = process.communicate()
+        stdout = await(process)
         outputs.append(stdout)
     return outputs
