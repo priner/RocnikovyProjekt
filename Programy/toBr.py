@@ -11,3 +11,10 @@ def printToFile(gs, out):
 			f.write(" ".join([str(x) for x in g.neighbors(j)]) + "\n")
 
 	f.close()
+
+def GraphToString(g):
+    s = ""
+    s += str(len(g.vertices())) + "\n"
+    for j in range(0, len(g.vertices())):
+        s += " ".join([str(x) for x in g.neighbors(j)]) + "\n"
+    return s
