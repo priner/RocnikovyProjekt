@@ -4,7 +4,9 @@ from SatSolver import solveSATparallel
 from Steiner import cycleType, toCanonicalCycle, colors, colorNames, symetryConditions, atLeastOnePerEdge, atMostOnePerEdge, blockConditions
 import sys
 from GraphParser import parseComponent, endpointVerticies
+import GraphParser
 from Precomputed import all5ColoringsZeroSum
+from pathlib import Path
 
 async def testCycle(graph, cycle):
 
@@ -62,35 +64,65 @@ def endpointConditions(edgeVars, graph, endpoints, coloring):
 
     return res
 
+def listCycles(g):
+    res = set()
+    for v1 in g.vertices():
+        for v2 in g.neighbors(v1):
+            for v3 in g.neighbors(v2):
+                for v4 in g.neighbors(v3):
+                    for v5 in g.neighbors(v4):
+                        if v1 in g.neighbors(v5):
+                            if len({v1,v2,v3,v4,v5}) == 5:
+                                res.add(normalizeCycle([v1,v2,v3,v4,v5]))
+    return sorted(res)
+
+def removeCycle(g, cycle):
+    for i in range(len(cycle)):
+        assert cycle[i] in g.neighbors(cycle[i-1])
+    for i in range(len(cycle)):
+        g.delete_edge(cycle[i], cycle[i-1])
+
+def normalizeCycle(original_array):
+    candidates = []
+    candidates += [original_array[i:] + original_array[:i] for i in range(len(original_array))]
+    reversed_array = list(reversed(original_array))
+    candidates += [reversed_array[i:] + reversed_array[:i] for i in range(len(reversed_array))]
+    return tuple(min(candidates))
+
 
 async def main():
-    graphsPath = ""
+    cycle = None
+    graphsPath = sys.argv[1]
 
-    for s in sys.argv:
-        ss = s.split("=", maxsplit=1)
-        if ss[0] == "-graph":
-            graphsPath = ss[1]
+    if len(sys.argv) >= 3:
+        cycle = tuple(map(int,sys.argv[2].split(",")))
 
-    if graphsPath == "":
-        print("you need to provide path to graph file in parameter 'graph'")
-        exit(1)
+    graphs = [Graph(g) for g in GraphParser.parse(graphsPath)]
+    assert len(graphs) == 1
+    assert cycle == None or len(cycle) == 5
 
-    components = [(Graph(g), c) for g, c in parseComponent(graphsPath)]
+    #components = [(Graph(g), c) for g, c in parseComponent(graphsPath)]
 
-    for i in range(len(components)):
-        print("graph", i+1)
-        graph, (cycle,) = components[i]
-        testResult = await testCycle(graph, cycle)
+    g = graphs[0]
+    if cycle != None:
+        removeCycle(g, cycle)
+        testResult = await testCycle(g, cycle)
 
-        # summary = set()
-        for coloring in testResult:
-            print(*map(lambda c: colorNames[c].rjust(2), coloring), end=4*" ")
-            print(cycleType[coloring][0].ljust(20), cycleType[coloring][1])
-        #     summary.add(connectorTypes)
+        with open(graphsPath+'-'+sys.argv[2], 'w') as outfile:
+            summary = set()
+            for coloring in testResult:
+                print(*map(lambda c: colorNames[c].rjust(2), coloring), end=4*" ", file=outfile)
+                print(cycleType[coloring][0].ljust(20), cycleType[coloring][1], file=outfile)
+                summary.add(cycleType[coloring])
 
-        # print()
-        # for ct in sorted(summary):
-        #     print(*ct)
+            print(file=outfile)
+            for ct in sorted(summary):
+                print(ct[0].ljust(20), ct[1], file=outfile)
+    else:
+        for cycle in listCycles(g):
+            print(*cycle, sep=",")
+
+
 
 
         # TODO TREBA VACSIU RYCHLOST !!!!!!
